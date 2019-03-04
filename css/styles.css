@@ -2,11 +2,34 @@
   DIAGNOSTIC STYLING
 */
 body {
-  background: gray;
+  background: black;
+  position: relative;
+
 }
 
 * {
   outline: 1px dotted black;
+}
+
+h1 {
+  text-align: center;
+  margin: auto;
+  margin-top: 25%;
+  color: goldenrod;
+}
+
+h2 {
+  text-align: center;
+  margin: auto;
+  margin-top: 25%;
+  color: goldenrod;
+  font-size: 5rem;
+}
+
+.eyes {
+  display: flex;
+  margin: auto;
+  width: 50%;
 }
 
 /* Your Awesome Scripts */
